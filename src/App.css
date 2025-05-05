@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  .card-form, .card-post {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-post:hover {
+    transform: scale(1.02);
+  }
+  
+  input.Intitle, textarea.Incontent {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .clickButton {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clickButton:hover {
+    background-color: #45a049;
+  }
+  
+  .head1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .list1, .list2 {
+    margin-left: 15px;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
